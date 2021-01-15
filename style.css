@@ -1,0 +1,141 @@
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.fonts {
+  font-size: 20px;
+}
+
+.heading {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+  background-color: rgb(6, 166, 240);
+}
+
+.btn-2 {
+  background: rgb(5, 125, 180);
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+.btn-2:hover {
+  background: rgb(5, 104, 150);
+}
+.text {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.fas,
+.fab,.far {
+  font-size: 35px;
+}
+.card-icon{
+  margin: 30px auto;
+  font-size:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .fa-cube{
+  display: flex;
+  width: 100%;
+  margin: auto;
+} */
+
+
+
+.heigh {
+  height: 100px;
+}
+
+.custm {
+  width: auto;
+}
+
+.logo-img {
+  max-width: 100px;
+  margin: auto;
+}
+
+
+.bt-line{
+  height: 3px;
+  background-color: rgb(38, 100, 233);
+  width: 8%;
+  display: flex;
+  margin: 20px auto;
+}
+
+.brands{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imag{
+  max-width: 500px;
+  
+}
+
+.list{
+  list-style: none;
+}
+.fa-check{
+  font-size: 15px;
+}
+
+.box{
+  box-shadow: 0px 0px 8px 0.4px rgb(194, 194, 194);
+}
+
+.backgrod{
+  background-color: rgb(6,166,240);
+}
+
+.card{
+  width: 100%;
+  height: auto;
+  box-shadow: 2px 1px 5px  gray;
+}
+
+.custom-card{
+  background-color: rgb(102, 149, 250);
+}
+
+
+.location-box{
+  box-shadow: 1px 2px 8px gray;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+  .remove{
+    display: none;
+  }
+}
+
+@media (max-width:576px){
+  .brands{
+    margin: 10px auto;
+  }
+  .para{
+    text-align: center;
+  }
+  .imag{
+    max-width: 300px;
+    padding: 20px;
+    
+  }
+}
